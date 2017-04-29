@@ -7,6 +7,9 @@ namespace MessingWithDotNet
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            string text = "Hello";
+            text.ToLower();
+            Console.WriteLine(text);
         }
     }
 }
